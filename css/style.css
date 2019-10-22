@@ -1,0 +1,307 @@
+@font-face {
+	font-family: 'OpenSans-Regular';
+	src:url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'OpenSans-Bold';
+	src:url('../fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'OpenSans-ExtraBold';
+	src:url('../fonts/OpenSans-ExtraBold.ttf');
+}
+
+body {
+	margin-top:31px;
+	font-family: 'OpenSans Regular', Helvetica, Arial, sans-serif;
+}
+
+header {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	max-width: 1249px;
+	min-width: 330px;
+	max-height: 89px;
+	flex-wrap: wrap;
+	background-color: #000000;
+	opacity: 0.9;
+}
+
+nav{
+	display: flex;
+	justify-content: center;
+}
+
+nav > a {
+	padding: 42px 25px 28px;
+	color: #E0E0E0;
+	font-family: 'OpenSans-ExtraBold';
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+nav > a:hover {
+	background-color: #ff3f40;
+}
+
+main {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	max-width: 1249px;
+	min-width: 300px;
+	padding: 108px 0 123px;
+	background-color: #f2f2f2;
+}
+
+.main-n {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 50%;
+	opacity: 0.9;
+	
+}
+
+.main-n h1 {
+	margin: 0;
+	font-family:'OpenSans-ExtraBold';
+	font-size: 60px;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+
+.main-n p {
+	margin-bottom: 58px;
+}
+
+.buttom	{
+	color:#ff2d2d;
+	width: 227px;
+	padding: 22px 0;
+	text-align: center;
+	font-family: 'OpenSans-ExtraBold';
+	color:#ffffff;
+	text-decoration: none;
+	background-color: #FF2D2D;
+	text-decoration: none;
+}
+
+.picture {
+	margin-top: 15px;
+	
+}
+
+			/* Вторая половина сайта*/
+
+.main-adress {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100vw;
+	height: 500px;
+	background-color: #000000;
+	opacity: 0.9;
+}
+
+.main-adress h1 {
+	font-family:'OpenSans-Bold';
+	font-size: 42px;
+	color: #FFFFFF;
+	margin-bottom: 17px;
+}
+
+.main-adress p {
+	margin-bottom: 25px;
+	font-family:'OpenSans-Regular';
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.adress {
+	display: flex;
+	align-items: flex-end;
+}
+
+.in1 {
+	border: 0px;
+	width: 524px;
+	height: 82px;
+	font-size: 16px;
+	font-family:'OpenSans-Regular';
+}
+
+.b1 {
+	margin-left: 20px;
+	border: 0px;
+	width: 217px;
+	height: 82px;
+	color: #FFFFFF;
+	background-color: #FF2D2D;
+	font-size: 18px;
+	font-family:'OpenSans-Bold';
+	text-transform: uppercase;
+}
+
+.user {
+	opacity: 0.9;
+	margin-top: 40px;
+	margin-left: 100px;
+}
+
+.user h1 {
+	font-family:'OpenSans-Bold';
+	font-size: 42px;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+
+}
+
+.user p {
+	width: 60%;
+	font-family:'OpenSans-Bold';
+	font-size: 16px;
+}
+
+.in2 {
+	border: 0px;
+	margin-right: 43px;
+	margin-bottom: 43px;
+	width: 342px;
+	height:71px;
+	font-size: 16px;
+	font-family: 'OpenSans-Regular';
+	background-color: #B7B7B7;
+	
+}
+
+.in3 {
+	border: 0px;
+	width: 342px;
+	height:71px;
+	font-size: 16px;
+	font-family: 'OpenSans-Regular';
+	background-color: #B7B7B7;
+	
+}
+
+.in4 {
+	border: 0px;
+	width: 734px;
+	height: 252px;
+	font-size: 16px;
+	font-family: 'OpenSans-Regular';
+	background-color:#B7B7B7;
+	margin-bottom: 43px;
+}
+
+.b2 {
+	border: 0px;
+	width: 736px;
+	height: 75px;
+	color: #FFFFFF;
+	background-color: #FF2D2D;
+	font-size: 18px;
+	font-family:'OpenSans-Bold';
+	text-transform: uppercase;
+}
+/*
+.popup {
+	width: 500px;
+	height: 500px;
+	background-color: rgb(261,96,18);
+	display: none;
+}
+
+.visible {
+	display:block;
+}
+*/
+footer {
+	margin:0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	max-width: 1249px;
+	min-width: 330px;
+	min-height: 113px;
+	color: #b8b8b8;
+	background-color: #000000;
+}
+
+footer p {
+	margin-top: 50px;
+}
+
+footer ul{
+	margin-top: 50px;
+}
+
+footer ul {
+	display: flex;
+	justify-content: space-between;
+	width: 186px;
+	height: 33px;	
+}
+
+footer li {
+	list-style: none;
+}
+
+@media screen and (max-width: 1123px) {
+	
+	nav > a {
+		padding: 4.2vw 2.5vw 2.8vw; 
+	}
+
+	main {
+		padding: 10.8vw 0 12.3vw;
+	}
+
+	main {
+		justify-content: center;
+
+	}
+	
+	.picture {
+	flex: 1 1 554px;
+	}
+
+@media screen and (max-width: 650px) {
+	 	
+	main h1 {
+		font-size: 30px;
+	}
+
+	footer {
+		flex-direction: column;
+		align-items: center;
+		font-size: 16px;
+	}
+
+	footer ul {
+		margin-top: 0;
+	}
+
+	footer p {
+		margin-top: 15px;
+	}
+}
+
+@media screen and (max-width: 589px) {
+	.buttom {
+		width: 33vw;
+	}
+
+@media screen and (max-width: 368px) {
+	nav > a {
+		font-size: 12px;
+	}
+}
